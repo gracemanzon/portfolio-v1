@@ -1,5 +1,5 @@
 body {
-  background-color: #170e20;
+  background-color: #100a17;
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
   /* padding: 0; */
@@ -21,7 +21,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: #1e1228;
+  background-color: #181022;
 }
 
 /* .logo-img {
@@ -128,7 +128,7 @@ li {
 } */
 
 /* #myBtn:hover {
-  background-color: #fe9677;
+  background-color: #f69e4c;
 } */
 
 h1 {
@@ -170,7 +170,7 @@ a {
 }
 
 a:hover {
-  color: #fe9677;
+  color: #f69e4c;
 }
 
 .hero-area {
@@ -206,7 +206,7 @@ a:hover {
 
 .button:hover {
   border: solid 2px #f64668;
-  color: #fe9677;
+  color: #f69e4c;
 }
 
 /* .button:active {
@@ -277,11 +277,11 @@ a:hover {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #1e1228;
+  background-color: #181022;
   margin: 0 42px;
   padding: 42px 35px;
   outline: 2px solid #f64668;
-  border: 20px solid #170e20;
+  border: 20px solid #100a17;
   border-radius: 5px;
 }
 
@@ -366,8 +366,8 @@ a:hover {
   width: 500px;
   height: 76%;
   border-radius: 5px;
-  background-color: #1e1228;
-  box-shadow: 5px 15px 20px #1e1228;
+  background-color: #181022;
+  box-shadow: 5px 15px 20px #181022;
   margin: 25px;
   text-align: center;
 }
@@ -411,7 +411,7 @@ hr {
 }
 
 .project-link:hover {
-  color: #fe9677;
+  color: #f69e4c;
 }
 
 .project-button {
@@ -445,8 +445,8 @@ form {
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
-  background-color: #1e1228;
-  /* border: 2px solid #fe9677; */
+  background-color: #181022;
+  /* border: 2px solid #f69e4c; */
   border: none;
   transition: all 0.3s;
   padding: 13px;
@@ -457,7 +457,7 @@ form {
 }
 
 /* .feedback-input:focus {
-  border: 2px solid #fe9677;
+  border: 2px solid #f69e4c;
 } */
 
 textarea {
@@ -470,7 +470,7 @@ textarea {
   font-family: "Noto Sans Mono", monospace;
   width: 100%;
   border: solid 2px #f64668;
-  background-color: #1e1228;
+  background-color: #181022
   border-radius: 5px;
   cursor: pointer;
   color: #e5deec;
@@ -482,7 +482,7 @@ textarea {
   font-weight: 700;
 }
 [type="submit"]:hover {
-  color: #fe9677;
+  color: #f69e4c;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -496,7 +496,7 @@ textarea {
 }
 
 footer {
-  background-color: #1e1228;
+  background-color: #181022;
   color: #e5deec;
   text-align: center;
   padding: 30px;
