@@ -96,7 +96,7 @@ li {
     display: block;
     border: 0;
     background-color: transparent;
-    color: #ccd6f6;
+    color: #d6d8fa;
     font-size: 30px;
   }
 
@@ -143,12 +143,12 @@ h2 {
   text-align: center;
   margin-top: 0;
   margin-bottom: 26px;
-  color: #ccd6f6;
+  color: #d6d8fa;
 }
 
 h3 {
   margin: 0;
-  color: #ccd6f6;
+  color: #d6d8fa;
 }
 
 h4 {
@@ -159,13 +159,13 @@ h4 {
 }
 
 p {
-  color: #ccd6f6;
+  color: #d6d8fa;
   font-size: 18px;
 }
 
 a {
   text-decoration: none;
-  color: #ccd6f6;
+  color: #d6d8fa;
   transition: color 0.2s ease-in-out;
 }
 
@@ -406,7 +406,7 @@ hr {
 
 .project-link {
   text-decoration: none;
-  color: #ccd6f6;
+  color: #d6d8fa;
   transition: color 0.2s ease-in-out;
 }
 
@@ -439,7 +439,7 @@ form {
 }
 
 .feedback-input {
-  color: #ccd6f6;
+  color: #d6d8fa;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -473,7 +473,7 @@ textarea {
   background-color: #14152b;
   border-radius: 5px;
   cursor: pointer;
-  color: #ccd6f6;
+  color: #d6d8fa;
   font-size: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -497,7 +497,7 @@ textarea {
 
 footer {
   background-color: #14152b;
-  color: #ccd6f6;
+  color: #d6d8fa;
   text-align: center;
   padding: 30px;
 }
