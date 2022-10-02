@@ -299,7 +299,7 @@ a:hover {
 .profile-pic-container {
   display: flex;
   align-items: center;
-  margin-bottom: 36px;
+  margin: 18px 0 42px 0;
   position: relative;
 }
 
