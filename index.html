@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio - draft</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/fcdc21f4c7.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="hero">
+      <nav>
+        <div class="logo-container">
+          <!-- <img src="/src/pics/logo.png" class="logo-img" /> -->
+        <p>#codewithgrace</p>
+        </div>
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="menu-container">
+          <ul id="nav-list">
+            <li><a href="#about-me">01 about</a></li>
+            <li><a href="#projects">02 projects</a></li>
+            <li><a href="#contact-me">03 contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="/src/pics/up-arrow.png" width="45px" height="45px"/></button>
+      <div class="wip-message">
+        <h2>*** website under construction ***</h2>
+        <h2>thank you for your patience ✌🏼</h2>
+      </div>
+      <div class="hero-area">
+        <div class="hero-text">
+          <h1>grace manzon</h1>
+          <h2>student software developer</h2>
+          <p>+ indie game design</p>
+          <p>+ digital painting</p>
+          <p>+ instant photography</p>
+          <div class="button"><a href="#projects">projects</a></div>
+        </div>
+        <div class="socials">
+          <div>
+            <a
+              href="https://github.com/gracemanzon"
+              target="_blank"
+              class="social"
+            >
+            <img src="/src/pics/github.png" width="40px" alt="github logo"/>
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/gracemanzon/"
+              target="_blank"
+              class="social"
+            >
+            <img src="/src/pics/linkedin.png" width="40px" alt="linkedin logo"/>
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://twitter.com/gracermegacat"
+              target="_blank"
+              class="social"
+            >
+            <img src="/src/pics/twitter.png" width="40px" alt="twitter logo"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-section" id="about-me">
+      <h2>01.. introduction</h2>
+      <div class="about-content">
+        <div class="profile-pic-container">
+          <img
+            src="/src/pics/avatar.jpg"
+            class="profile-pic1"
+            alt="prequel avatar filter"
+          />
+          <img
+            src="/src/pics/profile-pic.jpg"
+            class="profile-pic2"
+            alt="profile headshot"
+          />
+        </div>
+        <div class="about-me">
+          <div class="about-banner">
+            <img src="/src/pics/helo-banner.png" />
+          </div>
+          <p>
+            Hello, I am a student software developer and newbie content creator!
+            I am currently learning full-stack web development with Actualize
+            Coding Bootcamp, and working on developing a professional portfolio
+            as well as a side-scroller inspired by the 1998 iMac game Nanosaur.
+            I enjoy listening to Harvard's CS50 online lectures, the CodeNewbie
+            podcast and taking time to practice digital painting. When I'm not
+            at my computer you can find me walking around the city with my
+            instant camera or patiently waiting for the first signs of winter so
+            that I can break out my snowboard.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="project-section" id="projects">
+      <h2>02.. project samples</h2>
+      <div class="project-container">
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="/src/pics/sample-pic.jpg"
+            alt="project image"
+          />
+          <div class="project-text">
+            <h3>Project 1</h3>
+            <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <hr />
+            <p class="subtext">
+              <div class="project-button"><a
+                class="project-link"
+                href="https://github.com/gracemanzon"
+                target="_blank"
+                >code</a
+              ></div>
+            </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="/src/pics/sample-pic.jpg"
+            alt="project image"
+          />
+          <div class="project-text">
+            <h3>Project 2</h3>
+            <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <hr />
+            <p class="subtext">
+              <div class="project-button"><a
+                class="project-link"
+                href="https://github.com/gracemanzon"
+                target="_blank"
+                >code</a
+              ></div>
+            </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="/src/pics/sample-pic.jpg"
+            alt="project image"
+          />
+          <div class="project-text">
+            <h3>Project 3</h3>
+            <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <hr />
+            <p class="subtext">
+              <div class="project-button"><a
+                class="project-link"
+                href="https://github.com/gracemanzon"
+                target="_blank"
+                >code</a
+              ></div>
+            </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="/src/pics/sample-pic.jpg"
+            alt="project image"
+          />
+          <div class="project-text">
+            <h3>Project 4</h3>
+            <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <hr />
+            <p class="subtext">
+              <div class="project-button"><a
+                class="project-link"
+                href="https://github.com/gracemanzon"
+                target="_blank"
+                >code</a
+              ></div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section" id="contact-me">
+      <h2>03.. get in touch</h2>
+      <div class="form-container">
+        <form>      
+          <input name="name" type="text" class="feedback-input" placeholder="name" required/>   
+          <input name="email" type="text" class="feedback-input" placeholder="email" required/>
+          <textarea name="text" class="feedback-input" placeholder="message" required></textarea>
+          <h2>*** form under construction ***</h2>
+          <h4>grace.xws@gmail.com</h4>
+          <!-- <input type="submit" value="submit"/> -->
+        </form>
+      </div>
+    </section>
+    <footer><p>#codewithgrace</p></footer>
+
+    <script src="/src/app.js"></script>
+  </body>
+</html>
