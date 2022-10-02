@@ -299,7 +299,7 @@ a:hover {
 .profile-pic-container {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 36px;
   position: relative;
 }
 
@@ -332,6 +332,20 @@ a:hover {
   }
 
   .about-banner img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .profile-pic-container {
+    width: 50%;
+  }
+
+  .profile-pic1 {
+    width: 100%;
+  }
+
+  .profile-pic2 {
     width: 100%;
   }
 }
