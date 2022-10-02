@@ -456,9 +456,9 @@ form {
   outline: 0;
 }
 
-.feedback-input:focus {
-  /* border: 2px solid #fe9677; */
-}
+/* .feedback-input:focus {
+  border: 2px solid #fe9677;
+} */
 
 textarea {
   height: 350px;
