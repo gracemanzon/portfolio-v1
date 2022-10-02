@@ -170,7 +170,7 @@ a {
 }
 
 a:hover {
-  color: #f69e4c;
+  color: #ffac5f;
 }
 
 .hero-area {
@@ -206,7 +206,7 @@ a:hover {
 
 .button:hover {
   border: solid 2px #f64668;
-  color: #f69e4c;
+  color: #ffac5f;
 }
 
 /* .button:active {
@@ -411,7 +411,7 @@ hr {
 }
 
 .project-link:hover {
-  color: #f69e4c;
+  color: #ffac5f;
 }
 
 .project-button {
@@ -470,7 +470,7 @@ textarea {
   font-family: "Noto Sans Mono", monospace;
   width: 100%;
   border: solid 2px #f64668;
-  background-color: #181022
+  background-color: #181022;
   border-radius: 5px;
   cursor: pointer;
   color: #e5deec;
@@ -482,7 +482,7 @@ textarea {
   font-weight: 700;
 }
 [type="submit"]:hover {
-  color: #f69e4c;
+  color: #ffac5f;
 }
 
 @media only screen and (max-width: 1000px) {
