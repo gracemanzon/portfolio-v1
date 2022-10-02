@@ -9,12 +9,9 @@ body {
   margin-top: 30px;
 }
 
-section {
-  /* border: solid black 1px; */
-  font-size: 18px;
-  color: #ccd6f6;
-  width: 100%;
-}
+/* div {
+  border: solid white 1px;
+} */
 
 .hero {
   height: 100vh;
@@ -105,12 +102,11 @@ li {
 
   ul {
     display: none;
-    background-color: #0b2a44;
   }
 }
 
 #myBtn {
-  display: none;
+  /* display: none; */
   position: fixed;
   bottom: 45px;
   right: 45px;
@@ -125,6 +121,11 @@ li {
   border-radius: 50%;
   transition: background-color 0.2s ease-in-out;
 }
+
+/* @media only screen and (max-width: 1000px) {
+  #myBtn {
+  }
+} */
 
 /* #myBtn:hover {
   background-color: #fe9677;
@@ -147,6 +148,7 @@ h2 {
 
 h3 {
   margin: 0;
+  color: #ccd6f6;
 }
 
 h4 {
@@ -208,11 +210,60 @@ a:hover {
 } */
 
 .socials {
-  padding-bottom: 400px;
+  margin-bottom: 400px;
 }
 
 .social {
   margin: 20px 0 0 0;
+}
+
+.social-img {
+  width: 45px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hero-area {
+    padding: 0 16px;
+  }
+
+  .hero-text {
+    padding: 0;
+  }
+
+  .hero-text h2 {
+    text-align: left;
+  }
+
+  .socials {
+    margin-right: 38px;
+  }
+
+  /* .social {
+    margin-left: 16px;
+  } */
+
+  .social-img {
+    width: 35px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-text {
+    margin-left: 0;
+  }
+
+  .socials {
+    margin-right: 0;
+    margin-bottom: 250px;
+  }
+
+  .social {
+    margin-left: 16px;
+  }
+
+  .social-img {
+    width: 25px;
+  }
 }
 
 .about-section {
@@ -235,13 +286,6 @@ a:hover {
   width: 60%;
   display: flex;
   flex-direction: column;
-}
-
-@media only screen and (max-width: 1000px) {
-  .about-me {
-    text-align: center;
-    width: 100%;
-  }
 }
 
 .about-banner {
@@ -272,6 +316,23 @@ a:hover {
   opacity: 0;
 }
 
+@media only screen and (max-width: 1000px) {
+  .about-me {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .about-content {
+    margin: 3%;
+    padding: 0;
+  }
+
+  .about-banner img {
+    width: 100%;
+  }
+}
+
 .project-section {
   padding: 100px 0;
 }
@@ -296,7 +357,13 @@ a:hover {
 
 @media only screen and (max-width: 1000px) {
   .project-card {
-    width: 52%;
+    width: 68%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-card {
+    width: 95%;
   }
 }
 
@@ -399,6 +466,16 @@ textarea {
 }
 [type="submit"]:hover {
   color: #fe9677;
+}
+
+@media only screen and (max-width: 1000px) {
+  form {
+    width: 86%;
+  }
+
+  textarea {
+    height: 175px;
+  }
 }
 
 footer {
