@@ -1,5 +1,5 @@
 body {
-  background-color: #0e0f20;
+  background-color: #170e20;
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
   /* padding: 0; */
@@ -21,7 +21,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: #14152b;
+  background-color: #1e1228;
 }
 
 /* .logo-img {
@@ -96,7 +96,7 @@ li {
     display: block;
     border: 0;
     background-color: transparent;
-    color: #d6d8fa;
+    color: #e5deec;
     font-size: 30px;
   }
 
@@ -143,12 +143,12 @@ h2 {
   text-align: center;
   margin-top: 0;
   margin-bottom: 26px;
-  color: #d6d8fa;
+  color: #e5deec;
 }
 
 h3 {
   margin: 0;
-  color: #d6d8fa;
+  color: #e5deec;
 }
 
 h4 {
@@ -159,13 +159,13 @@ h4 {
 }
 
 p {
-  color: #d6d8fa;
+  color: #e5deec;
   font-size: 18px;
 }
 
 a {
   text-decoration: none;
-  color: #d6d8fa;
+  color: #e5deec;
   transition: color 0.2s ease-in-out;
 }
 
@@ -277,11 +277,11 @@ a:hover {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #14152b;
+  background-color: #1e1228;
   margin: 0 42px;
   padding: 42px 35px;
   outline: 2px solid #f64668;
-  border: 20px solid #0e0f20;
+  border: 20px solid #170e20;
   border-radius: 5px;
 }
 
@@ -366,8 +366,8 @@ a:hover {
   width: 500px;
   height: 76%;
   border-radius: 5px;
-  background-color: #14152b;
-  box-shadow: 5px 15px 20px #14152b;
+  background-color: #1e1228;
+  box-shadow: 5px 15px 20px #1e1228;
   margin: 25px;
   text-align: center;
 }
@@ -391,7 +391,7 @@ a:hover {
 
 hr {
   margin: 0 32px;
-  border: solid 1px #0e0f20;
+  border: solid 1px #170e20;
 }
 
 .project-text {
@@ -406,7 +406,7 @@ hr {
 
 .project-link {
   text-decoration: none;
-  color: #d6d8fa;
+  color: #e5deec;
   transition: color 0.2s ease-in-out;
 }
 
@@ -439,13 +439,13 @@ form {
 }
 
 .feedback-input {
-  color: #d6d8fa;
+  color: #e5deec;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
-  background-color: #14152b;
+  background-color: #1e1228;
   /* border: 2px solid #fe9677; */
   border: none;
   transition: all 0.3s;
@@ -470,10 +470,10 @@ textarea {
   font-family: "Noto Sans Mono", monospace;
   width: 100%;
   border: solid 2px #f64668;
-  background-color: #14152b;
+  background-color: #1e1228;
   border-radius: 5px;
   cursor: pointer;
-  color: #d6d8fa;
+  color: #e5deec;
   font-size: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -496,8 +496,8 @@ textarea {
 }
 
 footer {
-  background-color: #14152b;
-  color: #d6d8fa;
+  background-color: #1e1228;
+  color: #e5deec;
   text-align: center;
   padding: 30px;
 }
