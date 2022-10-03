@@ -531,7 +531,12 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 38px;
+  background-color: #170e20;
+  margin: 0 42px;
+  padding: 42px 35px;
+  outline: 2px solid #f64668;
+  border: 20px solid #100a17;
+  border-radius: 5px;
 }
 
 .contact {
@@ -552,6 +557,10 @@ hr {
   .contact-container {
     flex-direction: column-reverse;
     text-align: center;
+  }
+
+  .contact-img {
+    width: 92%;
   }
 
   .contact h4 {
@@ -576,7 +585,6 @@ hr {
   }
 
   .contact-img {
-    width: 85%;
     margin: 0;
   }
 }
