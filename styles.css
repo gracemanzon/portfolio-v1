@@ -68,9 +68,10 @@ li {
 
 .hamburger {
   display: none;
+  cursor: pointer;
 }
 
-.hambugr:focus {
+.hamburger:focus {
   outline: 0;
 }
 
@@ -179,7 +180,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   /* padding: 80px; -- temporarily removed for wip-message */
-  padding: 0 80px 80px 80px;
+  padding: 0 80px 0 80px;
 }
 
 .hero-text {
@@ -293,13 +294,12 @@ a:hover {
 
 .about-banner {
   align-self: center;
-  margin-bottom: 20px;
 }
 
 .profile-pic-container {
   display: flex;
   align-items: center;
-  margin: 18px 0 42px 0;
+  margin: 58px 0;
   position: relative;
 }
 
@@ -317,6 +317,10 @@ a:hover {
 
 .profile-pic1:hover {
   opacity: 0;
+}
+
+.tools-content {
+  align-self: center;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -347,6 +351,10 @@ a:hover {
 
   .profile-pic2 {
     width: 100%;
+  }
+
+  .tools-content {
+    width: 75%;
   }
 }
 
@@ -414,13 +422,36 @@ hr {
   color: #ffac5f;
 }
 
-.project-button {
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.details-button {
+  cursor: pointer;
   width: 86px;
   height: 26px;
   border-radius: 5px;
   border: solid 2px #f64668;
   text-align: center;
-  margin: auto;
+  margin-right: 10px;
+  font-family: "Noto Sans Mono", monospace;
+  color: #e5deec;
+  font-size: 15px;
+  transition: color 0.2s ease-in-out;
+}
+
+.details-button:hover {
+  color: #ffac5f;
+}
+
+.code-button {
+  width: 86px;
+  height: 26px;
+  border-radius: 5px;
+  border: solid 2px #f64668;
+  text-align: center;
+  margin-left: 10px;
   font-family: "Noto Sans Mono", monospace;
   font-size: 15px;
   transition: color 0.2s ease-in-out;
@@ -433,12 +464,12 @@ hr {
 /* .form-container { */
 /* } */
 
-form {
+/* form {
   max-width: 620px;
   margin: 50px auto;
-}
+} */
 
-.feedback-input {
+/* .feedback-input {
   color: #e5deec;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
@@ -446,7 +477,7 @@ form {
   border-radius: 5px;
   line-height: 22px;
   background-color: #181022;
-  /* border: 2px solid #f69e4c; */
+  border: 2px solid #f69e4c;
   border: none;
   transition: all 0.3s;
   padding: 13px;
@@ -454,19 +485,19 @@ form {
   width: 100%;
   box-sizing: border-box;
   outline: 0;
-}
+} */
 
 /* .feedback-input:focus {
   border: 2px solid #f69e4c;
 } */
 
-textarea {
+/* textarea {
   height: 350px;
   line-height: 150%;
   resize: vertical;
-}
+} */
 
-[type="submit"] {
+/* [type="submit"] {
   font-family: "Noto Sans Mono", monospace;
   width: 100%;
   border: solid 2px #f64668;
@@ -480,12 +511,13 @@ textarea {
   transition: all 0.3s;
   margin-top: -4px;
   font-weight: 700;
-}
-[type="submit"]:hover {
-  color: #ffac5f;
-}
+} */
 
-@media only screen and (max-width: 1000px) {
+/* [type="submit"]:hover {
+  color: #ffac5f;
+} */
+
+/* @media only screen and (max-width: 1000px) {
   form {
     width: 86%;
   }
@@ -493,7 +525,80 @@ textarea {
   textarea {
     height: 175px;
   }
+} */
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;
 }
+
+.contact {
+  width: 500px;
+  margin-left: 35px;
+}
+
+.contact h4 {
+  text-align: left;
+}
+
+.contact-img {
+  width: 650px;
+  margin-right: 35px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .contact-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .contact h4 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-container {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .contact {
+    width: 85%;
+    margin: 0;
+  }
+
+  .contact h4 {
+    text-align: center;
+    margin: 0 0 18px 0;
+  }
+
+  .contact-img {
+    width: 85%;
+    margin: 0;
+  }
+}
+
+/* .easter-egg-section {
+  padding: 100px 0;
+}
+
+.easter-egg-container {
+  width: 600px;
+  margin: auto;
+}
+
+.easter-egg-img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .easter-egg-container {
+    width: 85%;
+  }
+} */
 
 footer {
   background-color: #181022;
