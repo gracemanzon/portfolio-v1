@@ -575,7 +575,7 @@ hr {
   }
 
   .contact {
-    width: 85%;
+    width: 100%;
     margin: 0;
   }
 
@@ -586,6 +586,7 @@ hr {
 
   .contact-img {
     margin: 0;
+    width: 82%;
   }
 }
 
