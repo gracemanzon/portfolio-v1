@@ -320,7 +320,20 @@ a:hover {
 }
 
 .tools-content {
-  align-self: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 38px 0;
+}
+
+.tools-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tools-icons img {
+  margin: 6px 1px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -353,8 +366,8 @@ a:hover {
     width: 100%;
   }
 
-  .tools-content {
-    width: 75%;
+  .tools-img {
+    width: 100%;
   }
 }
 
