@@ -383,8 +383,8 @@ a:hover {
 }
 
 .project-card {
-  width: 500px;
-  height: 76%;
+  width: 600px;
+  /* height: 76%; */
   border-radius: 5px;
   background-color: #181022;
   box-shadow: 5px 15px 20px #181022;
@@ -544,8 +544,8 @@ hr {
   justify-content: center;
   align-items: center;
   background-color: #170e20;
-  margin: 0 42px;
-  padding: 42px 35px;
+  margin: 0 240px;
+  padding: 32px 35px;
   outline: 2px solid #f64668;
   border: 20px solid #100a17;
   border-radius: 5px;
@@ -558,6 +558,7 @@ hr {
 
 .contact h4 {
   text-align: left;
+  color: #ffac5f;
 }
 
 .contact-img {
@@ -569,9 +570,16 @@ hr {
   .contact-container {
     flex-direction: column-reverse;
     text-align: center;
+    margin: 0 120px;
+  }
+
+  .contact {
+    margin: 0;
+    width: 100%;
   }
 
   .contact-img {
+    padding: 0;
     width: 58%;
   }
 
@@ -588,7 +596,6 @@ hr {
 
   .contact {
     width: 100%;
-    margin: 0;
   }
 
   .contact h4 {
