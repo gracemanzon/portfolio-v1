@@ -286,13 +286,13 @@ a:hover {
 }
 
 .about-me {
-  width: 60%;
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
 
 .about-banner {
-  align-self: center;
+  align-self: left;
 }
 
 .profile-pic-container {
@@ -325,10 +325,14 @@ a:hover {
   margin: 38px 0;
 }
 
+.tools-content h2 {
+  text-align: left;
+}
+
 .tools-icons {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .tools-icons img {
@@ -349,6 +353,14 @@ a:hover {
 
   .about-banner img {
     width: 100%;
+  }
+
+  .tools-content h2 {
+    text-align: center;
+  }
+
+  .tools-icons {
+    justify-content: center;
   }
 }
 
@@ -562,7 +574,7 @@ hr {
 }
 
 .contact-img {
-  width: 38%;
+  width: 32%;
   margin-right: 35px;
 }
 
