@@ -343,7 +343,7 @@ a:hover {
   .about-me {
     text-align: center;
     width: 100%;
-    margin: 0;
+    margin: 0 32px;
   }
 
   .about-content {
@@ -365,6 +365,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+  .about-me {
+    margin: 0 6px;
+  }
+
   .profile-pic-container {
     width: 50%;
   }
@@ -608,6 +612,11 @@ hr {
 
   .contact h4 {
     text-align: center;
+  }
+
+  .contact-button {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
