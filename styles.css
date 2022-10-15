@@ -578,6 +578,17 @@ hr {
   margin-right: 35px;
 }
 
+.contact-button {
+  width: 86px;
+  height: 26px;
+  border-radius: 5px;
+  border: solid 2px #f64668;
+  text-align: center;
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 15px;
+  transition: color 0.2s ease-in-out;
+}
+
 @media only screen and (max-width: 1000px) {
   .contact-container {
     flex-direction: column-reverse;
