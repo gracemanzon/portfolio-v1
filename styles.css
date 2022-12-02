@@ -423,6 +423,7 @@ a:hover {
 .project-image {
   width: 100%;
   border-radius: 5px 5px 0 0;
+  object-fit: cover;
 }
 
 hr {
@@ -483,6 +484,39 @@ hr {
   font-family: "Noto Sans Mono", monospace;
   font-size: 15px;
   transition: color 0.2s ease-in-out;
+}
+
+.instax-section {
+  padding: 100px 0;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.instax-v {
+  width: 230px;
+  height: 340px;
+  object-fit: cover;
+  margin: 0.4em;
+  border-radius: 2px;
+  box-shadow: 0 5px 15px 5px #181022;
+}
+
+.instax-h {
+  width: 340px;
+  height: 230px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1000px) {
+  .instax-v {
+    width: 115px;
+    height: 170px;
+  }
 }
 
 .contact-section {
