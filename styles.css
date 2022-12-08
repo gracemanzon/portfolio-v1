@@ -214,7 +214,7 @@ a:hover {
 } */
 
 .socials {
-  margin-bottom: 400px;
+  margin-bottom: 320px;
 }
 
 .social {
@@ -617,14 +617,16 @@ hr {
 }
 
 .contact-button {
-  width: 86px;
-  height: 26px;
+  width: 180px;
+  height: 42px;
   border-radius: 5px;
   border: solid 2px #f64668;
   text-align: center;
   font-family: "Noto Sans Mono", monospace;
-  font-size: 15px;
+  font-size: 20px;
   transition: color 0.2s ease-in-out;
+  margin: 2em 0;
+  padding-top: 10px;
 }
 
 @media only screen and (max-width: 1000px) {
